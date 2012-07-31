@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		654056FF14BF282D003F497C /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 654056FE14BF282D003F497C /* CoreMotion.framework */; };
+		654D24BB14EAA0E9008B316F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 654D24BA14EAA0E9008B316F /* Default@2x.png */; };
+		654D24BD14EAA0F0008B316F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 654D24BC14EAA0EF008B316F /* Default.png */; };
+		6569360B15091D4C007F21B9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6569360915091BE6007F21B9 /* AVFoundation.framework */; };
+		65ADEB2A149A405C0027D281 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65ADEB29149A405C0027D281 /* UIKit.framework */; };
+		65ADEB2C149A405C0027D281 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65ADEB2B149A405C0027D281 /* Foundation.framework */; };
+		65ADEB2E149A405C0027D281 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65ADEB2D149A405C0027D281 /* CoreGraphics.framework */; };
+		65ADEB47149A421E0027D281 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65ADEB46149A421E0027D281 /* CoreLocation.framework */; };
+		65ADEB5F14A1E5C70027D281 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65ADEB5E14A1E5C70027D281 /* CoreAudio.framework */; };
+		65ADEB6114A1E5D40027D281 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65ADEB6014A1E5D40027D281 /* AudioToolbox.framework */; };
+		65ADEB7214A1FB970027D281 /* AudioCompass.fev in Resources */ = {isa = PBXBuildFile; fileRef = 65ADEB6D14A1FB970027D281 /* AudioCompass.fev */; };
+		65ADEB7314A1FB970027D281 /* AudioCompass.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65ADEB6F14A1FB970027D281 /* AudioCompass.txt */; };
+		65ADEB7414A1FB970027D281 /* AudioCompass_bank00.fsb in Resources */ = {isa = PBXBuildFile; fileRef = 65ADEB7014A1FB970027D281 /* AudioCompass_bank00.fsb */; };
+		65ADEB7514A1FB970027D281 /* AudioCompass_bank00.lst in Resources */ = {isa = PBXBuildFile; fileRef = 65ADEB7114A1FB970027D281 /* AudioCompass_bank00.lst */; };
+		65ADEB8614A207FB0027D281 /* libfmodevent_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65ADEB7E14A207FB0027D281 /* libfmodevent_iphoneos.a */; };
+		65ADEB8714A207FB0027D281 /* libfmodevent_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65ADEB7F14A207FB0027D281 /* libfmodevent_iphonesimulator.a */; };
+		65ADEB8814A207FB0027D281 /* libfmodeventL_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65ADEB8014A207FB0027D281 /* libfmodeventL_iphoneos.a */; };
+		65ADEB8914A207FB0027D281 /* libfmodeventL_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65ADEB8114A207FB0027D281 /* libfmodeventL_iphonesimulator.a */; };
+		65ADEB8A14A207FB0027D281 /* libfmodeventnet_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65ADEB8214A207FB0027D281 /* libfmodeventnet_iphoneos.a */; };
+		65ADEB8B14A207FB0027D281 /* libfmodeventnet_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65ADEB8314A207FB0027D281 /* libfmodeventnet_iphonesimulator.a */; };
+		65ADEB8C14A207FB0027D281 /* libfmodeventnetL_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65ADEB8414A207FB0027D281 /* libfmodeventnetL_iphoneos.a */; };
+		65ADEB8D14A207FB0027D281 /* libfmodeventnetL_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65ADEB8514A207FB0027D281 /* libfmodeventnetL_iphonesimulator.a */; };
+		65D813E915C7F24B005D61E1 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 65D813D315C7F24B005D61E1 /* AppDelegate.mm */; };
+		65D813EA15C7F24B005D61E1 /* BeaconViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 65D813D515C7F24B005D61E1 /* BeaconViewController.mm */; };
+		65D813EB15C7F24B005D61E1 /* BeaconViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65D813D615C7F24B005D61E1 /* BeaconViewController.xib */; };
+		65D813EC15C7F24B005D61E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65D813D715C7F24B005D61E1 /* InfoPlist.strings */; };
+		65D813ED15C7F24B005D61E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D813D815C7F24B005D61E1 /* main.m */; };
+		65D813EE15C7F24B005D61E1 /* RoundDividerViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 65D813DA15C7F24B005D61E1 /* RoundDividerViewController.mm */; };
+		65D813EF15C7F24B005D61E1 /* RoundDividerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65D813DB15C7F24B005D61E1 /* RoundDividerViewController.xib */; };
+		65D813F015C7F24B005D61E1 /* SoundView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 65D813DD15C7F24B005D61E1 /* SoundView.mm */; };
+		65D813F115C7F24B005D61E1 /* SpatialAudioTester-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65D813DE15C7F24B005D61E1 /* SpatialAudioTester-Info.plist */; };
+		65D813F215C7F24B005D61E1 /* StartViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 65D813E115C7F24B005D61E1 /* StartViewController.mm */; };
+		65D813F315C7F24B005D61E1 /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65D813E215C7F24B005D61E1 /* StartViewController.xib */; };
+		65D813F415C7F24B005D61E1 /* TestData.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D813E415C7F24B005D61E1 /* TestData.m */; };
+		65D813F515C7F24B005D61E1 /* TestData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65D813E515C7F24B005D61E1 /* TestData.xcdatamodeld */; };
+		65D813F615C7F24B005D61E1 /* TestDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D813E815C7F24B005D61E1 /* TestDataViewController.m */; };
+		65DFFE9114CF39E700DB6C93 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65DFFE9014CF39E700DB6C93 /* CoreData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		654056FE14BF282D003F497C /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		654D24BA14EAA0E9008B316F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		654D24BC14EAA0EF008B316F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6569360915091BE6007F21B9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		65ADEB25149A405C0027D281 /* AudioBeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioBeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65ADEB29149A405C0027D281 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		65ADEB2B149A405C0027D281 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		65ADEB2D149A405C0027D281 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		65ADEB31149A405C0027D281 /* SpatialAudioTester-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpatialAudioTester-Info.plist"; sourceTree = "<group>"; };
+		65ADEB33149A405C0027D281 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		65ADEB35149A405C0027D281 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65ADEB37149A405C0027D281 /* SpatialAudioTester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpatialAudioTester-Prefix.pch"; sourceTree = "<group>"; };
+		65ADEB46149A421E0027D281 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		65ADEB4F14A1E5920027D281 /* fmod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fmod.h; sourceTree = "<group>"; };
+		65ADEB5014A1E5920027D281 /* fmod.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fmod.hpp; sourceTree = "<group>"; };
+		65ADEB5114A1E5920027D281 /* fmod_codec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fmod_codec.h; sourceTree = "<group>"; };
+		65ADEB5214A1E5920027D281 /* fmod_dsp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fmod_dsp.h; sourceTree = "<group>"; };
+		65ADEB5314A1E5920027D281 /* fmod_errors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fmod_errors.h; sourceTree = "<group>"; };
+		65ADEB5414A1E5920027D281 /* fmod_memoryinfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fmod_memoryinfo.h; sourceTree = "<group>"; };
+		65ADEB5514A1E5920027D281 /* fmod_output.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fmod_output.h; sourceTree = "<group>"; };
+		65ADEB5614A1E5920027D281 /* fmodiphone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fmodiphone.h; sourceTree = "<group>"; };
+		65ADEB5814A1E5920027D281 /* libfmodex.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfmodex.dylib; sourceTree = "<group>"; };
+		65ADEB5914A1E5920027D281 /* libfmodex_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodex_iphoneos.a; sourceTree = "<group>"; };
+		65ADEB5A14A1E5920027D281 /* libfmodex_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodex_iphonesimulator.a; sourceTree = "<group>"; };
+		65ADEB5B14A1E5920027D281 /* libfmodexL_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodexL_iphoneos.a; sourceTree = "<group>"; };
+		65ADEB5C14A1E5920027D281 /* libfmodexL_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodexL_iphonesimulator.a; sourceTree = "<group>"; };
+		65ADEB5E14A1E5C70027D281 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		65ADEB6014A1E5D40027D281 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		65ADEB6D14A1FB970027D281 /* AudioCompass.fev */ = {isa = PBXFileReference; lastKnownFileType = file; path = AudioCompass.fev; sourceTree = "<group>"; };
+		65ADEB6E14A1FB970027D281 /* AudioCompass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioCompass.h; sourceTree = "<group>"; };
+		65ADEB6F14A1FB970027D281 /* AudioCompass.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AudioCompass.txt; sourceTree = "<group>"; };
+		65ADEB7014A1FB970027D281 /* AudioCompass_bank00.fsb */ = {isa = PBXFileReference; lastKnownFileType = file; path = AudioCompass_bank00.fsb; sourceTree = "<group>"; };
+		65ADEB7114A1FB970027D281 /* AudioCompass_bank00.lst */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AudioCompass_bank00.lst; sourceTree = "<group>"; };
+		65ADEB7914A207FB0027D281 /* fmod_event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_event.h; sourceTree = "<group>"; };
+		65ADEB7A14A207FB0027D281 /* fmod_event.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = fmod_event.hpp; sourceTree = "<group>"; };
+		65ADEB7B14A207FB0027D281 /* fmod_event_net.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_event_net.h; sourceTree = "<group>"; };
+		65ADEB7C14A207FB0027D281 /* fmod_event_net.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = fmod_event_net.hpp; sourceTree = "<group>"; };
+		65ADEB7E14A207FB0027D281 /* libfmodevent_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodevent_iphoneos.a; sourceTree = "<group>"; };
+		65ADEB7F14A207FB0027D281 /* libfmodevent_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodevent_iphonesimulator.a; sourceTree = "<group>"; };
+		65ADEB8014A207FB0027D281 /* libfmodeventL_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodeventL_iphoneos.a; sourceTree = "<group>"; };
+		65ADEB8114A207FB0027D281 /* libfmodeventL_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodeventL_iphonesimulator.a; sourceTree = "<group>"; };
+		65ADEB8214A207FB0027D281 /* libfmodeventnet_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodeventnet_iphoneos.a; sourceTree = "<group>"; };
+		65ADEB8314A207FB0027D281 /* libfmodeventnet_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodeventnet_iphonesimulator.a; sourceTree = "<group>"; };
+		65ADEB8414A207FB0027D281 /* libfmodeventnetL_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodeventnetL_iphoneos.a; sourceTree = "<group>"; };
+		65ADEB8514A207FB0027D281 /* libfmodeventnetL_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodeventnetL_iphonesimulator.a; sourceTree = "<group>"; };
+		65D813C115C7F1AE005D61E1 /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; name = .DS_Store; path = Resources/.DS_Store; sourceTree = "<group>"; };
+		65D813C215C7F1AE005D61E1 /* ArrowIcon57.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ArrowIcon57.jpg; path = Resources/ArrowIcon57.jpg; sourceTree = "<group>"; };
+		65D813C315C7F1AE005D61E1 /* ArrowIconRetina114.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ArrowIconRetina114.jpg; path = Resources/ArrowIconRetina114.jpg; sourceTree = "<group>"; };
+		65D813C415C7F1AE005D61E1 /* ArrowImg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ArrowImg.jpg; path = Resources/ArrowImg.jpg; sourceTree = "<group>"; };
+		65D813C515C7F1AE005D61E1 /* ArrowImgGreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ArrowImgGreen.jpg; path = Resources/ArrowImgGreen.jpg; sourceTree = "<group>"; };
+		65D813C615C7F1AE005D61E1 /* ArrowRed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ArrowRed.jpg; path = Resources/ArrowRed.jpg; sourceTree = "<group>"; };
+		65D813C715C7F1AE005D61E1 /* ArrowRed2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ArrowRed2.jpg; path = Resources/ArrowRed2.jpg; sourceTree = "<group>"; };
+		65D813C815C7F1AE005D61E1 /* AudioBeacon01_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AudioBeacon01_button.png; path = Resources/AudioBeacon01_button.png; sourceTree = "<group>"; };
+		65D813C915C7F1AE005D61E1 /* AudioBeacon01_Icon57.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = AudioBeacon01_Icon57.jpg; path = Resources/AudioBeacon01_Icon57.jpg; sourceTree = "<group>"; };
+		65D813CA15C7F1AE005D61E1 /* AudioBeacon01_icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AudioBeacon01_icon57.png; path = Resources/AudioBeacon01_icon57.png; sourceTree = "<group>"; };
+		65D813CB15C7F1AE005D61E1 /* AudioBeacon01_Icon114.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = AudioBeacon01_Icon114.jpg; path = Resources/AudioBeacon01_Icon114.jpg; sourceTree = "<group>"; };
+		65D813CC15C7F1AE005D61E1 /* AudioBeacon01_icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AudioBeacon01_icon114.png; path = Resources/AudioBeacon01_icon114.png; sourceTree = "<group>"; };
+		65D813CD15C7F1AE005D61E1 /* AudioBeacon01_launchimage320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AudioBeacon01_launchimage320.png; path = Resources/AudioBeacon01_launchimage320.png; sourceTree = "<group>"; };
+		65D813CE15C7F1AE005D61E1 /* AudioBeacon01_launchimage640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AudioBeacon01_launchimage640.png; path = Resources/AudioBeacon01_launchimage640.png; sourceTree = "<group>"; };
+		65D813CF15C7F1AE005D61E1 /* AudioBeacon01_mainarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AudioBeacon01_mainarrow.png; path = Resources/AudioBeacon01_mainarrow.png; sourceTree = "<group>"; };
+		65D813D015C7F1AE005D61E1 /* MMPSilence.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = MMPSilence.wav; path = Resources/MMPSilence.wav; sourceTree = "<group>"; };
+		65D813D215C7F24B005D61E1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		65D813D315C7F24B005D61E1 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		65D813D415C7F24B005D61E1 /* BeaconViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconViewController.h; sourceTree = "<group>"; };
+		65D813D515C7F24B005D61E1 /* BeaconViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BeaconViewController.mm; sourceTree = "<group>"; };
+		65D813D615C7F24B005D61E1 /* BeaconViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BeaconViewController.xib; sourceTree = "<group>"; };
+		65D813D715C7F24B005D61E1 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		65D813D815C7F24B005D61E1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65D813D915C7F24B005D61E1 /* RoundDividerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundDividerViewController.h; sourceTree = "<group>"; };
+		65D813DA15C7F24B005D61E1 /* RoundDividerViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RoundDividerViewController.mm; sourceTree = "<group>"; };
+		65D813DB15C7F24B005D61E1 /* RoundDividerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoundDividerViewController.xib; sourceTree = "<group>"; };
+		65D813DC15C7F24B005D61E1 /* SoundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundView.h; sourceTree = "<group>"; };
+		65D813DD15C7F24B005D61E1 /* SoundView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SoundView.mm; sourceTree = "<group>"; };
+		65D813DE15C7F24B005D61E1 /* SpatialAudioTester-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SpatialAudioTester-Info.plist"; sourceTree = "<group>"; };
+		65D813DF15C7F24B005D61E1 /* SpatialAudioTester-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SpatialAudioTester-Prefix.pch"; sourceTree = "<group>"; };
+		65D813E015C7F24B005D61E1 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		65D813E115C7F24B005D61E1 /* StartViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = StartViewController.mm; sourceTree = "<group>"; };
+		65D813E215C7F24B005D61E1 /* StartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartViewController.xib; sourceTree = "<group>"; };
+		65D813E315C7F24B005D61E1 /* TestData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestData.h; sourceTree = "<group>"; };
+		65D813E415C7F24B005D61E1 /* TestData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestData.m; sourceTree = "<group>"; };
+		65D813E615C7F24B005D61E1 /* TestData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestData.xcdatamodel; sourceTree = "<group>"; };
+		65D813E715C7F24B005D61E1 /* TestDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestDataViewController.h; sourceTree = "<group>"; };
+		65D813E815C7F24B005D61E1 /* TestDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDataViewController.m; sourceTree = "<group>"; };
+		65DFFE9014CF39E700DB6C93 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65ADEB22149A405C0027D281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6569360B15091D4C007F21B9 /* AVFoundation.framework in Frameworks */,
+				65DFFE9114CF39E700DB6C93 /* CoreData.framework in Frameworks */,
+				654056FF14BF282D003F497C /* CoreMotion.framework in Frameworks */,
+				65ADEB6114A1E5D40027D281 /* AudioToolbox.framework in Frameworks */,
+				65ADEB5F14A1E5C70027D281 /* CoreAudio.framework in Frameworks */,
+				65ADEB47149A421E0027D281 /* CoreLocation.framework in Frameworks */,
+				65ADEB2A149A405C0027D281 /* UIKit.framework in Frameworks */,
+				65ADEB2C149A405C0027D281 /* Foundation.framework in Frameworks */,
+				65ADEB2E149A405C0027D281 /* CoreGraphics.framework in Frameworks */,
+				65ADEB8614A207FB0027D281 /* libfmodevent_iphoneos.a in Frameworks */,
+				65ADEB8714A207FB0027D281 /* libfmodevent_iphonesimulator.a in Frameworks */,
+				65ADEB8814A207FB0027D281 /* libfmodeventL_iphoneos.a in Frameworks */,
+				65ADEB8914A207FB0027D281 /* libfmodeventL_iphonesimulator.a in Frameworks */,
+				65ADEB8A14A207FB0027D281 /* libfmodeventnet_iphoneos.a in Frameworks */,
+				65ADEB8B14A207FB0027D281 /* libfmodeventnet_iphonesimulator.a in Frameworks */,
+				65ADEB8C14A207FB0027D281 /* libfmodeventnetL_iphoneos.a in Frameworks */,
+				65ADEB8D14A207FB0027D281 /* libfmodeventnetL_iphonesimulator.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		654D24D414F39798008B316F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				65D813C115C7F1AE005D61E1 /* .DS_Store */,
+				65D813C215C7F1AE005D61E1 /* ArrowIcon57.jpg */,
+				65D813C315C7F1AE005D61E1 /* ArrowIconRetina114.jpg */,
+				65D813C415C7F1AE005D61E1 /* ArrowImg.jpg */,
+				65D813C515C7F1AE005D61E1 /* ArrowImgGreen.jpg */,
+				65D813C615C7F1AE005D61E1 /* ArrowRed.jpg */,
+				65D813C715C7F1AE005D61E1 /* ArrowRed2.jpg */,
+				65D813C815C7F1AE005D61E1 /* AudioBeacon01_button.png */,
+				65D813C915C7F1AE005D61E1 /* AudioBeacon01_Icon57.jpg */,
+				65D813CA15C7F1AE005D61E1 /* AudioBeacon01_icon57.png */,
+				65D813CB15C7F1AE005D61E1 /* AudioBeacon01_Icon114.jpg */,
+				65D813CC15C7F1AE005D61E1 /* AudioBeacon01_icon114.png */,
+				65D813CD15C7F1AE005D61E1 /* AudioBeacon01_launchimage320.png */,
+				65D813CE15C7F1AE005D61E1 /* AudioBeacon01_launchimage640.png */,
+				65D813CF15C7F1AE005D61E1 /* AudioBeacon01_mainarrow.png */,
+				65D813D015C7F1AE005D61E1 /* MMPSilence.wav */,
+				654D24BC14EAA0EF008B316F /* Default.png */,
+				654D24BA14EAA0E9008B316F /* Default@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		65ADEB1A149A405C0027D281 = {
+			isa = PBXGroup;
+			children = (
+				65D813D115C7F24B005D61E1 /* App */,
+				65ADEB28149A405C0027D281 /* Frameworks */,
+				65ADEB26149A405C0027D281 /* Products */,
+				65ADEB6C14A1FB960027D281 /* Banks */,
+				65ADEB30149A405C0027D281 /* Supporting Files */,
+				654D24D414F39798008B316F /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		65ADEB26149A405C0027D281 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65ADEB25149A405C0027D281 /* AudioBeacon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65ADEB28149A405C0027D281 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65ADEB4D14A1E5920027D281 /* FMOD */,
+				6569360915091BE6007F21B9 /* AVFoundation.framework */,
+				65DFFE9014CF39E700DB6C93 /* CoreData.framework */,
+				654056FE14BF282D003F497C /* CoreMotion.framework */,
+				65ADEB6014A1E5D40027D281 /* AudioToolbox.framework */,
+				65ADEB5E14A1E5C70027D281 /* CoreAudio.framework */,
+				65ADEB46149A421E0027D281 /* CoreLocation.framework */,
+				65ADEB29149A405C0027D281 /* UIKit.framework */,
+				65ADEB2B149A405C0027D281 /* Foundation.framework */,
+				65ADEB2D149A405C0027D281 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65ADEB30149A405C0027D281 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65ADEB31149A405C0027D281 /* SpatialAudioTester-Info.plist */,
+				65ADEB32149A405C0027D281 /* InfoPlist.strings */,
+				65ADEB35149A405C0027D281 /* main.m */,
+				65ADEB37149A405C0027D281 /* SpatialAudioTester-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = AudioCompass;
+			sourceTree = "<group>";
+		};
+		65ADEB4D14A1E5920027D281 /* FMOD */ = {
+			isa = PBXGroup;
+			children = (
+				65ADEB7614A207FB0027D281 /* fmoddesignerapi */,
+				65ADEB4E14A1E5920027D281 /* inc */,
+				65ADEB5714A1E5920027D281 /* lib */,
+			);
+			name = FMOD;
+			path = FMOD/api;
+			sourceTree = "<group>";
+		};
+		65ADEB4E14A1E5920027D281 /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				65ADEB4F14A1E5920027D281 /* fmod.h */,
+				65ADEB5014A1E5920027D281 /* fmod.hpp */,
+				65ADEB5114A1E5920027D281 /* fmod_codec.h */,
+				65ADEB5214A1E5920027D281 /* fmod_dsp.h */,
+				65ADEB5314A1E5920027D281 /* fmod_errors.h */,
+				65ADEB5414A1E5920027D281 /* fmod_memoryinfo.h */,
+				65ADEB5514A1E5920027D281 /* fmod_output.h */,
+				65ADEB5614A1E5920027D281 /* fmodiphone.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		65ADEB5714A1E5920027D281 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				65ADEB5814A1E5920027D281 /* libfmodex.dylib */,
+				65ADEB5914A1E5920027D281 /* libfmodex_iphoneos.a */,
+				65ADEB5A14A1E5920027D281 /* libfmodex_iphonesimulator.a */,
+				65ADEB5B14A1E5920027D281 /* libfmodexL_iphoneos.a */,
+				65ADEB5C14A1E5920027D281 /* libfmodexL_iphonesimulator.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		65ADEB6C14A1FB960027D281 /* Banks */ = {
+			isa = PBXGroup;
+			children = (
+				65ADEB6D14A1FB970027D281 /* AudioCompass.fev */,
+				65ADEB6E14A1FB970027D281 /* AudioCompass.h */,
+				65ADEB6F14A1FB970027D281 /* AudioCompass.txt */,
+				65ADEB7014A1FB970027D281 /* AudioCompass_bank00.fsb */,
+				65ADEB7114A1FB970027D281 /* AudioCompass_bank00.lst */,
+			);
+			path = Banks;
+			sourceTree = SOURCE_ROOT;
+		};
+		65ADEB7614A207FB0027D281 /* fmoddesignerapi */ = {
+			isa = PBXGroup;
+			children = (
+				65ADEB7714A207FB0027D281 /* api */,
+			);
+			name = fmoddesignerapi;
+			path = FMOD/fmoddesignerapi;
+			sourceTree = SOURCE_ROOT;
+		};
+		65ADEB7714A207FB0027D281 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				65ADEB7814A207FB0027D281 /* inc */,
+				65ADEB7D14A207FB0027D281 /* lib */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		65ADEB7814A207FB0027D281 /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				65ADEB7914A207FB0027D281 /* fmod_event.h */,
+				65ADEB7A14A207FB0027D281 /* fmod_event.hpp */,
+				65ADEB7B14A207FB0027D281 /* fmod_event_net.h */,
+				65ADEB7C14A207FB0027D281 /* fmod_event_net.hpp */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		65ADEB7D14A207FB0027D281 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				65ADEB7E14A207FB0027D281 /* libfmodevent_iphoneos.a */,
+				65ADEB7F14A207FB0027D281 /* libfmodevent_iphonesimulator.a */,
+				65ADEB8014A207FB0027D281 /* libfmodeventL_iphoneos.a */,
+				65ADEB8114A207FB0027D281 /* libfmodeventL_iphonesimulator.a */,
+				65ADEB8214A207FB0027D281 /* libfmodeventnet_iphoneos.a */,
+				65ADEB8314A207FB0027D281 /* libfmodeventnet_iphonesimulator.a */,
+				65ADEB8414A207FB0027D281 /* libfmodeventnetL_iphoneos.a */,
+				65ADEB8514A207FB0027D281 /* libfmodeventnetL_iphonesimulator.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		65D813D115C7F24B005D61E1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				65D813D215C7F24B005D61E1 /* AppDelegate.h */,
+				65D813D315C7F24B005D61E1 /* AppDelegate.mm */,
+				65D813D415C7F24B005D61E1 /* BeaconViewController.h */,
+				65D813D515C7F24B005D61E1 /* BeaconViewController.mm */,
+				65D813D615C7F24B005D61E1 /* BeaconViewController.xib */,
+				65D813D715C7F24B005D61E1 /* InfoPlist.strings */,
+				65D813D815C7F24B005D61E1 /* main.m */,
+				65D813D915C7F24B005D61E1 /* RoundDividerViewController.h */,
+				65D813DA15C7F24B005D61E1 /* RoundDividerViewController.mm */,
+				65D813DB15C7F24B005D61E1 /* RoundDividerViewController.xib */,
+				65D813DC15C7F24B005D61E1 /* SoundView.h */,
+				65D813DD15C7F24B005D61E1 /* SoundView.mm */,
+				65D813DE15C7F24B005D61E1 /* SpatialAudioTester-Info.plist */,
+				65D813DF15C7F24B005D61E1 /* SpatialAudioTester-Prefix.pch */,
+				65D813E015C7F24B005D61E1 /* StartViewController.h */,
+				65D813E115C7F24B005D61E1 /* StartViewController.mm */,
+				65D813E215C7F24B005D61E1 /* StartViewController.xib */,
+				65D813E315C7F24B005D61E1 /* TestData.h */,
+				65D813E415C7F24B005D61E1 /* TestData.m */,
+				65D813E515C7F24B005D61E1 /* TestData.xcdatamodeld */,
+				65D813E715C7F24B005D61E1 /* TestDataViewController.h */,
+				65D813E815C7F24B005D61E1 /* TestDataViewController.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65ADEB24149A405C0027D281 /* SpatialAudioTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65ADEB43149A405C0027D281 /* Build configuration list for PBXNativeTarget "SpatialAudioTester" */;
+			buildPhases = (
+				65ADEB21149A405C0027D281 /* Sources */,
+				65ADEB22149A405C0027D281 /* Frameworks */,
+				65ADEB23149A405C0027D281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpatialAudioTester;
+			productName = AudioCompass;
+			productReference = 65ADEB25149A405C0027D281 /* AudioBeacon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65ADEB1C149A405C0027D281 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 65ADEB1F149A405C0027D281 /* Build configuration list for PBXProject "SpatialAudioTester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 65ADEB1A149A405C0027D281;
+			productRefGroup = 65ADEB26149A405C0027D281 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65ADEB24149A405C0027D281 /* SpatialAudioTester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65ADEB23149A405C0027D281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65ADEB7214A1FB970027D281 /* AudioCompass.fev in Resources */,
+				65ADEB7314A1FB970027D281 /* AudioCompass.txt in Resources */,
+				65ADEB7414A1FB970027D281 /* AudioCompass_bank00.fsb in Resources */,
+				65ADEB7514A1FB970027D281 /* AudioCompass_bank00.lst in Resources */,
+				654D24BB14EAA0E9008B316F /* Default@2x.png in Resources */,
+				654D24BD14EAA0F0008B316F /* Default.png in Resources */,
+				65D813EB15C7F24B005D61E1 /* BeaconViewController.xib in Resources */,
+				65D813EC15C7F24B005D61E1 /* InfoPlist.strings in Resources */,
+				65D813EF15C7F24B005D61E1 /* RoundDividerViewController.xib in Resources */,
+				65D813F115C7F24B005D61E1 /* SpatialAudioTester-Info.plist in Resources */,
+				65D813F315C7F24B005D61E1 /* StartViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65ADEB21149A405C0027D281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D813E915C7F24B005D61E1 /* AppDelegate.mm in Sources */,
+				65D813EA15C7F24B005D61E1 /* BeaconViewController.mm in Sources */,
+				65D813ED15C7F24B005D61E1 /* main.m in Sources */,
+				65D813EE15C7F24B005D61E1 /* RoundDividerViewController.mm in Sources */,
+				65D813F015C7F24B005D61E1 /* SoundView.mm in Sources */,
+				65D813F215C7F24B005D61E1 /* StartViewController.mm in Sources */,
+				65D813F415C7F24B005D61E1 /* TestData.m in Sources */,
+				65D813F515C7F24B005D61E1 /* TestData.xcdatamodeld in Sources */,
+				65D813F615C7F24B005D61E1 /* TestDataViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65ADEB32149A405C0027D281 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65ADEB33149A405C0027D281 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65ADEB41149A405C0027D281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		65ADEB42149A405C0027D281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65ADEB44149A405C0027D281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "App/SpatialAudioTester-Prefix.pch";
+				HEADER_SEARCH_PATHS = FMOD/api/inc;
+				INFOPLIST_FILE = "App/SpatialAudioTester-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					FMOD/fmoddesignerapi/api/lib,
+					FMOD/api/lib,
+					"$(inherited)",
+					"\"$(SRCROOT)/FMOD/api/lib\"",
+					"\"$(SRCROOT)/FMOD/fmoddesignerapi/api/lib\"",
+				);
+				OTHER_LDFLAGS = "-lfmodex_$PLATFORM_NAME";
+				PRODUCT_NAME = AudioBeacon;
+				USER_HEADER_SEARCH_PATHS = "FMOD/fmoddesignerapi/api/inc FMOD/api/inc";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		65ADEB45149A405C0027D281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "App/SpatialAudioTester-Prefix.pch";
+				HEADER_SEARCH_PATHS = FMOD/api/inc;
+				INFOPLIST_FILE = "App/SpatialAudioTester-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					FMOD/fmoddesignerapi/api/lib,
+					FMOD/api/lib,
+					"$(inherited)",
+					"\"$(SRCROOT)/FMOD/api/lib\"",
+					"\"$(SRCROOT)/FMOD/fmoddesignerapi/api/lib\"",
+				);
+				OTHER_LDFLAGS = "-lfmodex_$PLATFORM_NAME";
+				PRODUCT_NAME = AudioBeacon;
+				USER_HEADER_SEARCH_PATHS = "FMOD/fmoddesignerapi/api/inc FMOD/api/inc";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65ADEB1F149A405C0027D281 /* Build configuration list for PBXProject "SpatialAudioTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65ADEB41149A405C0027D281 /* Debug */,
+				65ADEB42149A405C0027D281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65ADEB43149A405C0027D281 /* Build configuration list for PBXNativeTarget "SpatialAudioTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65ADEB44149A405C0027D281 /* Debug */,
+				65ADEB45149A405C0027D281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		65D813E515C7F24B005D61E1 /* TestData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				65D813E615C7F24B005D61E1 /* TestData.xcdatamodel */,
+			);
+			currentVersion = 65D813E615C7F24B005D61E1 /* TestData.xcdatamodel */;
+			path = TestData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 65ADEB1C149A405C0027D281 /* Project object */;
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="878" systemVersion="11C74" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="TestData" representedClassName="TestData" syncable="YES">
+        <attribute name="aimNum" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="beaconDirectionOffset" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="beaconOffset" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="beaconStartOffset" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="setupRound" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="setupType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeSinceLast" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="userNum" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="TestData" positionX="160" positionY="192" width="128" height="165"/>
+    </elements>
+</model>

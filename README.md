@@ -1,4 +1,4 @@
 SpatialAudioTester
 ==================
 
-Spatial Audio Tester application developed for iOS using FMOD.
+Spatial Audio Tester application developed for iOS using FMOD. Please contact joakim (a) bording.no for more information. 
